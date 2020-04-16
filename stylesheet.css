@@ -160,9 +160,24 @@ header {
   box-shadow: 0 7px #1a7940;
 }
 
-/* Tambahkan CSS untuk message ketika diklik */
 .message:active {
-  box-shadow: none;
   position: relative;
   top: 7px;
+  box-shadow: none;
+}
+
+/* Tambahkan CSS untuk tag <img> yang berada didalam <footer> */
+footer img {
+  width: 125px;
+}
+
+/* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/* Tambahkan CSS untuk tag <footer> */
+footer {
+  padding-top: 30px;
 }
