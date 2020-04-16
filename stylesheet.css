@@ -143,13 +143,22 @@ header {
   color: #b3aeb5;
 }
 
-/* Tambahkan CSS untuk message */
-.message {
-  background-color: #5dca88;
-  padding: 15px 40px;
+/* Tambahkan CSS untuk message-wrapper */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
-/* tambahkan CSS untuk tag <h3> didalam heading */
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  /* Ubah property cursor ke pointer */
+  cursor: pointer;
+  /* Ubah property box-shadow */
+  box-shadow: 0 7px #1a7940;
+}
+
 .heading h3 {
   font-weight: normal;
 }
